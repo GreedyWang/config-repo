@@ -1,0 +1,7 @@
+demo:
+  title: hello spring cloud config
+zuul:
+  routes:
+    api-a:
+      path: /api-a-url/**
+      serviceId: hello-service
